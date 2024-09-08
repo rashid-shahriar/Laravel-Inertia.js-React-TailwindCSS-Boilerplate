@@ -2,6 +2,46 @@
 
 Follow the steps below to set up a Laravel project with Inertia.js, React, and TailwindCSS
 
+### Installation Guide
+
+#### 1\. **Clone the repo**
+
+-   Use:
+
+    ```
+    git clone https://github.com/rashid-shahriar/Laravel-Inertia.js-React-TailwindCSS-Boilerplate.git
+    ```
+
+-   Go to `Laravel-Inertia.js-React-TailwindCSS-Boilerplate` folder and run:
+    ```
+    composer install
+    ```
+    ```
+    npm install
+    ```
+    ```
+    php artisan migrate
+    ```
+* * * * *
+
+### Running the Application
+
+#### 2\. **Run Laravel and Vite**
+
+-   Start the Laravel server:
+
+    ```
+    php artisan serve
+    ```
+
+-   Run the Vite development server:
+    ```
+    npm run dev
+    ```
+
+* * * * *
+## How I made it! Credit goes to: [Learn with Jon](https://www.youtube.com/watch?v=qBxo6hW83jU&list=PL38wFHH4qYZVOnXxcS0NMGGmUsZky6JNG&index=1)
+
 #### 1\. **Install Laravel**
 
 -   Install Laravel using either:
@@ -136,19 +176,6 @@ Follow the steps below to set up a Laravel project with Inertia.js, React, and T
 
 * * * * *
 
-### Running the Application
 
-#### 6\. **Run Laravel and Vite**
-
--   Start the Laravel server:
-
-    ```
-    php artisan serve
-    ```
-
--   Run the Vite development server:
-    ```
-    npm run dev
-    ```
 
 Now your Laravel application with Inertia.js, React, and TailwindCSS is ready to run.
